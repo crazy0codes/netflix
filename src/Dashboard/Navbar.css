@@ -1,0 +1,43 @@
+nav {
+    background-color: #221f1f;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav > * {
+    color: white;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0px;
+}
+
+ul > li {
+    padding: 26px 10px;
+}
+
+ul > li > a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+ul > li:nth-child(1) {
+    padding: 20px;
+}
+
+ul > li:nth-child(1) > a > svg{
+    width: 120px;
+    fill: #fff;
+}
